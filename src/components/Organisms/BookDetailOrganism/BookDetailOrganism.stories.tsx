@@ -11,7 +11,21 @@ const template: ComponentStory<typeof BookDetailOrganisms> = (
     args,
   ) => (
     <Router>
-      <BookDetailOrganisms />
+      <BookDetailOrganisms book={{
+      id: 0,
+      author: '',
+      country: '',
+      imageLink: '',
+      language: '',
+      link: '',
+      pages: 0,
+      title: '',
+      year: 0,
+      readTime: '',
+      readersCount: '',
+      status: '',
+      category: ''
+    }} />
     </Router>
 );
 

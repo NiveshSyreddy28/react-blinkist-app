@@ -4,10 +4,31 @@ import BookDetail from "../../molecules/BookDetail/BookDetail";
 import React from 'react'
 import { Box, CssBaseline } from "@mui/material";
 
-function index() {
+type Book = {
+  id:number,
+  author: string;
+  country: string;
+  imageLink: string;
+  language: string;
+  link: string;
+  pages: number;
+  title: string;
+  year: number;
+  readTime: string;
+  readersCount: string;
+  status: string;
+  category:string;
+};
+
+interface Props {
+  book: Book 
+ 
+}
+
+function index(props:Props) {
   return (
     <div>
-      <BookDetail/>
+      <BookDetail book = {props.book}/>
       <Box paddingTop="5%">
       <ToggleTabs/>
       </Box>

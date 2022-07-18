@@ -212,9 +212,16 @@ async function addToRead(id:number){
     ;   
 }
 
+// function handleClick(){
+//   <Link to={"/explore/bookdetails"}>
+//   </Link>
+// }
+ const id = props.book.id;
   return (
     <Box sx={{ padding: "12px 35px 20px 0px" }}>
+      
       <Card
+      // onClick={handleClick}
         sx={{
           width: "284px",
           borderRadius: "8px",
@@ -227,6 +234,7 @@ async function addToRead(id:number){
           src={images(`./${props.book.imageLink}`)}
           alt="Book Cover"
         />
+        <Link style={{textDecoration: 'none'}} to={`/explore/bookdetails/${id}`} >
         <CardContent>
           <Box className={classes.titleOfBook}>
             <Typography
@@ -248,6 +256,7 @@ async function addToRead(id:number){
           </Box>
           {/* <br /> */}
         </CardContent>
+        </Link>
 
         <Box>
           {typeOfCard === "myLibrary" && (
@@ -272,10 +281,6 @@ async function addToRead(id:number){
 
           {typeOfCard === "finished" && (
             <Box>
-              {/* <ReadAndFinished
-                  children="Read again"
-                  onFinishedClicked={props.onFinishedClick}
-                /> */}
               <Box className={classes.finish}>
                 <Buttons
                   name={"Read Again"}

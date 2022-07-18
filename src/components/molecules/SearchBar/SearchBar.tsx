@@ -5,6 +5,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 // import BookCard from "../BookCard/BookCard"
 import { useEffect,useState } from 'react';
 import BookCards from "../../molecules/BookCards/BookCards";
+import axios from "axios";
 
 type data = {
   id:number,
@@ -67,6 +68,21 @@ function SearchBar() {
       setFilterBooks(matchingBooks)
     }
   }
+    async function addToReading(id:number){
+        console.log(id)
+      await  axios.get(`http://localhost:3000/dataBase/${id}`)
+        .then(async response=>{
+          
+            response.data["status"]="reading";
+            console.log(response.data);
+            // await axios.patch(`http://localhost:3000/dataBase/${bookData[id].status},{"finished"}`)
+            await axios.delete(`http://localhost:3000/dataBase/${id}`)
+          await  axios.post(`http://localhost:3000/dataBase/`,response.data);
+          document.location.reload();
+          }
+        )
+        ;
+  }
  
   return (
     <>
@@ -91,9 +107,7 @@ function SearchBar() {
         if(searchShow){
         return(
           <Box>
-          <BookCards book={matchBook} onFinishedClick={function (arg: any): void {
-            throw new Error('Function not implemented.');
-          } } typeOfCard={buttonType} bookObject={[]}/>
+          <BookCards book={matchBook} onFinishedClick={()=>addToReading(matchBook.id)} typeOfCard={buttonType} bookObject={[]}/>
           </Box>
         )
         }

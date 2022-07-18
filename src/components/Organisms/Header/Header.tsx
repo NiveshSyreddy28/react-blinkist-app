@@ -123,7 +123,7 @@ const Header= () =>{
         </Button>
         </Grid>
         <Grid item>
-        <Link to={{ pathname: '/'}}>
+        <Link style={{textDecoration: 'none', color:"black"}} to={{ pathname: '/'}}>
           <Typography  fontFamily="Cera Pro" fontWeight="500" fontSize="16px">
             My Library
            

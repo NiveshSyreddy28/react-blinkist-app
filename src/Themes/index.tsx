@@ -94,8 +94,6 @@ const customStyles = makeStyles({
     fontsize: "16px",
     fontweight: "500",
     lineheight: "20px",
-    
-
   },
   toggletabs:{
 

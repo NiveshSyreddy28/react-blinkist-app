@@ -27,13 +27,6 @@ type Book = {
 };
 
 const CardStateTrending = (props: CardStateTrendingProps) => {
-  // const { type, limit } = props;
-  // var count = 0;
-
-  // const handleCount = () => {
-  //   count+=1
-  // };
-
       async function addToReading(id:number){
           console.log(id)
         await  axios.get(`http://localhost:3000/dataBase/${id}`)

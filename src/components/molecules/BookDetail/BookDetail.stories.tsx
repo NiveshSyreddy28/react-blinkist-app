@@ -9,5 +9,19 @@ export default {
   export const bookDetails = () => {
 
     return (
-      <BookDetail/>
+      <BookDetail book={{
+        id: 0,
+        author: '',
+        country: '',
+        imageLink: '',
+        language: '',
+        link: '',
+        pages: 0,
+        title: '',
+        year: 0,
+        readTime: '',
+        readersCount: '',
+        status: '',
+        category: ''
+      }}/>
   );}

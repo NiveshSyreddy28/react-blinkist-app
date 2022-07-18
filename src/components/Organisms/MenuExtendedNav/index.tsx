@@ -170,7 +170,7 @@ function MenuExtendedNav() {
               <Grid container spacing={5}>
                 <Grid item xs={12} sm={4}>
                   <Box className={classes.tabs}>
-                    <Link to={{ pathname: '/explore'}}>
+                    <Link style={{textDecoration: 'none', color:"inherit"}}to={{ pathname: '/explore'}}>
                     <ExtendedNav
                       name="Entrepreneurship"
                       icon={<NotificationsNoneIcon fontSize="small" />}

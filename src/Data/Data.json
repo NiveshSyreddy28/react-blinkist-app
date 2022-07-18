@@ -27,7 +27,7 @@
       "year": 1970,
       "readTime": "15",
       "readersCount": "",
-      "status": "finished"
+      "status": ""
     },
     {
       "id": 3,
@@ -41,7 +41,7 @@
       "year": -600,
       "readTime": "13",
       "readersCount": "1.9k",
-      "status": "finished"
+      "status": ""
     },
     {
       "id": 4,
@@ -97,7 +97,7 @@
       "year": 1813,
       "readTime": "15",
       "readersCount": "",
-      "status": "finished"
+      "status": ""
     },
     {
       "id": 8,
@@ -111,7 +111,7 @@
       "year": 1835,
       "readTime": "13",
       "readersCount": "1.9k",
-      "status": "finished"
+      "status": ""
     },
     {
       "id": 9,
@@ -125,7 +125,7 @@
       "year": 1351,
       "readTime": "12",
       "readersCount": "",
-      "status": "finished"
+      "status": ""
     },
     {
       "id": 10,
@@ -139,7 +139,7 @@
       "year": 1952,
       "readTime": "13",
       "readersCount": "",
-      "status": "reading"
+      "status": ""
     },
     {
       "id": 11,
@@ -153,7 +153,7 @@
       "year": 1836,
       "readTime": "15",
       "readersCount": "",
-      "status": "finished"
+      "status": ""
     }
   ]
 }
