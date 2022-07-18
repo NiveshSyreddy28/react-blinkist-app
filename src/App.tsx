@@ -1,26 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useAuth0 } from "@auth0/auth0-react";
+import { Box, CircularProgress } from "@mui/material";
+import "./App.css";
+import LoginPage from "./LoginPage";
+import Routing from "./Routing";
 
 function App() {
+  const { isLoading, isAuthenticated } = useAuth0();
+
+  if (isLoading) {
+    return (
+      <Box position={"absolute"} top={"25%"} left={"50%"}>
+        <CircularProgress size={"70px"}></CircularProgress>
+        <Box fontSize={"25px"} fontWeight={700} position={"relative"} left={"-10px"}>
+        Loading...
+        </Box>
+      </Box>
+    );
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!isAuthenticated ? <LoginPage /> : null}
+      {isAuthenticated && <Routing />}
+      {/* <Routing></Routing> */}
     </div>
   );
 }
 
 export default App;
+
+// import React from 'react';
+// import logo from './logo.svg';
+// import './App.css';
+// import {Routes, Route} from 'react-router-dom';
+// import MyLibPage from './components/pages/MyLibrary/MyLibrary'
+// import BookDetailPage from './components/pages/BookDetailViewPage/BookDetailViewPage';
+// import EntrepreneurshipPage from './components/pages/EntrepreneurshipPage/EntrepreneurshipPage';
+
+// function App() {
+//   return (
+//     <Routes>
+//     <Route  path='/' element={<MyLibPage/>}></Route>
+//     <Route  path='/explore' element={<EntrepreneurshipPage />}></Route>
+//     <Route  path='/explore/bookdetails' element={<BookDetailPage />}></Route>
+//   </Routes>
+//   );
+// }
+
+// export default App;

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: Medium;
+
+    src: local('Cera Pro'), url(../../../fonts/ceraPro/CeraProMedium.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: Light;
+
+    src: local('Cera Pro'), url(../../../fonts/ceraPro/CeraProLight.otf) format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: Bold;
+
+    src: local('Cera Pro'), url(../../../fonts/ceraPro/CeraProBold.otf) format('opentype');
+  } 
+/* .main{
+    font-family: 'alex_brushregular', Arial, "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+} */
