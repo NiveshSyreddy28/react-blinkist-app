@@ -1,6 +1,6 @@
 import React from 'react';
 import { ComponentStory } from '@storybook/react';
-import BookDetailOrganisms from './BookDetailOrganism';
+import BookDetailOrganisms from '.';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 export default {

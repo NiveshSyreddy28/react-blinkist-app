@@ -1,7 +1,7 @@
 import { Box, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
-import SearchBar from '../../molecules/SearchBar/SearchBar';
-import Banner from '../../Organisms/Banner/Banner';
+import SearchBar from '../../Organisms/SearchBar/SearchBar';
+import Banner from '../../molecules/Banner/Banner';
 import CardStateTrending from '../../Organisms/EntrepreneurOrganism/index';
 import Footer from '../../Organisms/Footer/Footer';
 import Header from '../../Organisms/Header/Header';
@@ -50,7 +50,7 @@ const EntrepreneurshipPage = () => {
 
   return (
     <ParentTemplate
-      header={<Header></Header>}
+      header={<Header avatarIcon={true}></Header>}
       body={
         <div>
           <Box style={{display:'flex', flexDirection:'column', maxWidth:'100%'}}>

@@ -6,4 +6,4 @@ export default {
     component: Header
 }
 
-export const header = () => <Header></Header>
+export const header = () => <Header avatarIcon={true}></Header>

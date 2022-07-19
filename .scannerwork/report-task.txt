@@ -1,0 +1,7 @@
+organization=niveshsyreddy28
+projectKey=React-blinkist-app
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.30262
+dashboardUrl=https://sonarcloud.io/dashboard?id=React-blinkist-app
+ceTaskId=AYIXyFcmieiGRVBZk_q8
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYIXyFcmieiGRVBZk_q8

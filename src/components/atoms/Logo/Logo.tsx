@@ -15,10 +15,7 @@ const useStyles=makeStyles({
         
     }
 });
-interface Props{
-    
-}
-function Logo(props:Props){
+function Logo(){
 
     const classes=useStyles();
 
@@ -30,4 +27,4 @@ function Logo(props:Props){
     );
 }
 
-export default Logo
+export default Logo;

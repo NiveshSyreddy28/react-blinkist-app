@@ -1,6 +1,6 @@
 import Header from "../../Organisms/Header/Header";
 import Footer from "../../Organisms/Footer/Footer";
-import BookDetailOrganism from "../../Organisms/BookDetailOrganism/BookDetailOrganism";
+import BookDetailOrganism from "../../Organisms/BookDetailOrganism";
 import RootTemplate from "../../Template/Template";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -50,7 +50,7 @@ function BookDetailViewPage() {
   return (
     
     <RootTemplate 
-    header={<Header/>} 
+    header={<Header avatarIcon={true}/>} 
     body={
       <div>
     <BookDetailOrganism book={bookData}/>

@@ -22,15 +22,7 @@ type data = {
   status: string;
   category:string;
 };
-
-const useStyles={
-  align:{
-    marginLeft: "0px" 
-  }
-}
-
 const MyLibPage = () => {
-  const classes=useStyles;
   
   const [bookData, setBookData] = useState<data[]>([]);
   useEffect(() => {
@@ -49,7 +41,7 @@ const MyLibPage = () => {
 
   return (
     <RootTemplate
-      header={<Header></Header>}
+      header={<Header avatarIcon={true}></Header>}
       body={
         <div>
           <Box style={{display:'flex', flexDirection:'column', width:'1000px'}}>

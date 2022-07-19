@@ -1,7 +1,6 @@
 import { Box } from "@mui/material";
 import BookCard from "../../molecules/BookCards/BookCards";
-import axios from "axios"
-// import { log } from "console";
+import axios from "axios";
 
 interface CardStateTrendingProps {
   type: string;
@@ -66,7 +65,8 @@ const CardStateTrending = (props: CardStateTrendingProps) => {
          
             book={book}
             typeOfCard={buttonType} 
-            bookObject={props.books}/>
+            // bookObject={props.books}
+            />
           }
           
         </Box>

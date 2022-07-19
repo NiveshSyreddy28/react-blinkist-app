@@ -10,7 +10,7 @@ import {customStyles} from "../../../Themes/index";
 export default function ToggleTabs() {
   const [value, setValue] = React.useState('1');
 
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
   };
   const classes=customStyles();

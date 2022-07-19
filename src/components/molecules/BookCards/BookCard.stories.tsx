@@ -22,7 +22,7 @@ const Template: ComponentStory<typeof BookCard> = (args) => (
 export const ReadCard = Template.bind({});
 ReadCard.args = {
   book:getBooks()[0],
-   bookObject:getBooks(),
+  //  bookObject:getBooks(),
     typeOfCard:"reading",
     onFinishedClick: ()=>handleClick(getBooks()[0])
 };
@@ -30,7 +30,7 @@ ReadCard.args = {
 export const FinishedCard = Template.bind({});
 FinishedCard.args = {
   book: getBooks()[0],
-  bookObject: getBooks(),
+  // bookObject: getBooks(),
   typeOfCard: "finished",
   onFinishedClick: () => handleClick(getBooks()[0]),
 };
@@ -38,7 +38,7 @@ FinishedCard.args = {
 export const AddToLibraryCard = Template.bind({});
 AddToLibraryCard.args = {
   book: getBooks()[0],
-  bookObject: getBooks(),
+  // bookObject: getBooks(),
   typeOfCard: "myLibrary",
   onFinishedClick: () => handleClick(getBooks()[0]),
 };
@@ -47,7 +47,7 @@ AddToLibraryCard.args = {
 export const ExploreCard = Template.bind({});
 ExploreCard.args = {
   book: getBooks()[0],
-  bookObject: getBooks(),
+  // bookObject: getBooks(),
   typeOfCard: "explore",
   onFinishedClick: () => handleClick(getBooks()[0]),
 };

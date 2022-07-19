@@ -1,5 +1,5 @@
 import { ComponentStory } from "@storybook/react";
-import Buttons from "./Button";
+import Buttons from "./Buttons";
 import AddIcon from "@mui/icons-material/Add";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 

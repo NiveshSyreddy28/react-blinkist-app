@@ -1,4 +1,3 @@
-import { createTheme } from "@mui/material/styles";
 import { makeStyles } from "@mui/styles";
 
 
@@ -226,9 +225,7 @@ width: "214px",
   visible: {
     
     position:"absolute",
-    height: "100%",
-    // top: "100px",
-    // background: "#F1F6F4",
+    height: "250%",
     zIndex:1,
     width:"100%"
   },

@@ -26,7 +26,7 @@ const allBooks = [
     "year": 1970,
     "readTime": "12",
     "readersCount": "16k",
-    "status": "reading",
+    "status": "finished",
     "category":"trendingBlinks"
   },
   {

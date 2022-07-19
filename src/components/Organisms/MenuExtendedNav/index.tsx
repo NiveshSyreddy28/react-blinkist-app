@@ -1,5 +1,4 @@
 import React from "react";
-// import PopupState, { bindTrigger, bindPopover } from "material-ui-popup-state";
 import Icons from "../../atoms/Icons/Icons";
 import ExtendedNav from "../../molecules/ExtendedNav/ExtendedNav";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
@@ -17,17 +16,12 @@ import career from "../../../stories/assets/career and success.svg";
 import marketing from "../../../stories/assets/marketing.svg";
 import personal from "../../../stories/assets/personal.svg";
 import communication from "../../../stories/assets/communication skills.svg";
-import money from "../../../stories/assets/science.svg";
+import money from "../../../stories/assets/Icons/money.svg";
 import relationship from "../../../stories/assets/sex and relationship.svg";
 import education from "../../../stories/assets/education.svg";
 import { makeStyles } from "@mui/styles";
-import { Box, Grid, Container, CssBaseline, Typography } from "@mui/material";
-import Button from "../../atoms/Button/Button";
-import KeyboardArrowDown from "@mui/icons-material/KeyboardArrowDown";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import ExpandLessIcon from "@mui/icons-material/ExpandLess";
+import { Box, Grid, Container, CssBaseline} from "@mui/material";
 import { Link } from "react-router-dom";
-// import OutsideClickHandler from "react-outside-click-handler";
 
 const useStyles = makeStyles({
   grid: {
@@ -90,55 +84,13 @@ const useStyles = makeStyles({
   },
 });
 
-interface ExploreDropDownProps {
-  onExplore: (arg: boolean) => void;
-  // bookObject: Array<Book>;
-}
 function MenuExtendedNav() {
-  const [icon, setIcon] = React.useState(false);
-
-  const handleIcon = () => {
-    setIcon(!icon);
-  };
   const classes = useStyles();
   return (
     <div>
       <Box maxWidth={"100%"}>
         <div>
           <CssBaseline />
-          {/* <Box>
-            <div className={classes.link}>
-              <Box
-                className={classes.link}
-                color={"#03314B"}
-                onClick={() => {
-                  handleIcon();
-                  props.onExplore(icon);
-                }}
-              >
-                <Typography variant="body1">Explore</Typography>
-              </Box>
-
-              {icon ? (
-                <ExpandLessIcon
-                  color={"secondary"}
-                  onClick={() => {
-                    handleIcon();
-                    props.onExplore(icon);
-                  }}
-                />
-              ) : (
-                <ExpandMoreIcon
-                  color={"secondary"}
-                  onClick={() => {
-                    handleIcon();
-                    props.onExplore(icon);
-                  }}
-                />
-              )}
-            </div>
-          </Box> */}
-
           <Box className={classes.grid}>
             <Container maxWidth="md">
               <Grid container spacing={5}>

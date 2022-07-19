@@ -1,15 +1,11 @@
 import React from "react";
-//import Icon from "../../Atoms/Icon/Icon";
-import bookimg from "../../../stories/assets/coverImages/2.svg";
 import { customStyles } from "../../../Themes/index";
 import { ArrowForward } from "@mui/icons-material";
 import { Typography } from "@mui/material";
-// import Buttons from "../../atoms/Button/Button";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
-// import { ReactComponent as Timer} from "../../";
 import Icon from "@mui/icons-material/AccessTime";
-import Buttons from "../../atoms/Button/Button";
+import Buttons from "../../atoms/Button/Buttons";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
@@ -42,7 +38,7 @@ export default function BookDetail(props: Props) {
       .then(async (response) => {
         response.data["status"] = "finished";
         console.log(response.data);
-        // await axios.patch(`http://localhost:3000/dataBase/${bookData[id].status},{"finished"}`)
+
         await axios.delete(`http://localhost:3000/dataBase/${props.book.id}`);
         await axios.post(`http://localhost:3000/dataBase/`, response.data);
         document.location.reload();
@@ -55,7 +51,7 @@ export default function BookDetail(props: Props) {
       .then(async (response) => {
         response.data["status"] = "reading";
         console.log(response.data);
-        // await axios.patch(`http://localhost:3000/dataBase/${bookData[id].status},{"reading"}`)
+
         await axios.delete(`http://localhost:3000/dataBase/${props.book.id}`);
         await axios.post(`http://localhost:3000/dataBase/`, response.data);
         document.location.reload();
@@ -123,10 +119,10 @@ export default function BookDetail(props: Props) {
         </Grid>
         <Grid item container sx={{ marginTop: "40px" }} columnSpacing={4}>
           <Grid item paddingTop="5%">
-            <Link style={{ textDecoration: "none" }} to={"/"}>
+            <Link style={{ textDecoration: "none" }} to={props.book.status === "finished" ? "/" : ""}>
               <Buttons
                 name={"Read Now"}
-                onClick={addToCurrent}
+                onClick={props.book.status === "finished" ? addToCurrent : undefined}
                 classing={"readNow"}
                 icon={undefined}
                 end={undefined}
@@ -135,10 +131,10 @@ export default function BookDetail(props: Props) {
           </Grid>
 
           <Grid item paddingTop="5%">
-            <Link style={{ textDecoration: "none" }} to={"/"}>
+            <Link style={{ textDecoration: "none" }} to={props.book.status === "reading" ? "/" : ""}>
               <Buttons
                 name={"Finished Reading"}
-                onClick={addToFinished}
+                onClick={props.book.status === "reading" ? addToFinished : undefined}
                 classing={"connect"}
                 icon={undefined}
                 end={undefined}
