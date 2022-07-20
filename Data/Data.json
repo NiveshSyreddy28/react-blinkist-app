@@ -46,21 +46,6 @@
       "category": "JustAdd"
     },
     {
-      "id": 2,
-      "author": "Steve Glaveski",
-      "country": "Sumer and Akkadian Empire",
-      "imageLink": "11.svg",
-      "language": "Akkadian",
-      "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
-      "pages": 160,
-      "title": "Employee to Entrepreneur",
-      "year": 1970,
-      "readTime": "15",
-      "readersCount": "",
-      "status": "",
-      "category": "trendingBlinks"
-    },
-    {
       "id": 5,
       "author": "Ryan Holiday, Stephen Hansel",
       "country": "India/Iran/Iraq/Egypt/Tajikistan",
@@ -103,21 +88,6 @@
       "readTime": "13",
       "readersCount": "",
       "status": "",
-      "category": "trendingBlinks"
-    },
-    {
-      "id": 11,
-      "author": "Jim Collins & Bill Lazier",
-      "country": "Denmark",
-      "imageLink": "2.svg",
-      "language": "Danish",
-      "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
-      "pages": 784,
-      "title": "Beyond Entrepreneurship",
-      "year": 1836,
-      "readTime": "15",
-      "readersCount": "",
-      "status": "reading",
       "category": "trendingBlinks"
     },
     {
@@ -164,6 +134,36 @@
       "readersCount": "1.9k",
       "status": "finished",
       "category": "featured"
+    },
+    {
+      "id": 11,
+      "author": "Jim Collins & Bill Lazier",
+      "country": "Denmark",
+      "imageLink": "2.svg",
+      "language": "Danish",
+      "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
+      "pages": 784,
+      "title": "Beyond Entrepreneurship",
+      "year": 1836,
+      "readTime": "15",
+      "readersCount": "",
+      "status": "reading",
+      "category": "trendingBlinks"
+    },
+    {
+      "id": 2,
+      "author": "Steve Glaveski",
+      "country": "Sumer and Akkadian Empire",
+      "imageLink": "11.svg",
+      "language": "Akkadian",
+      "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
+      "pages": 160,
+      "title": "Employee to Entrepreneur",
+      "year": 1970,
+      "readTime": "15",
+      "readersCount": "",
+      "status": "reading",
+      "category": "trendingBlinks"
     }
   ]
 }

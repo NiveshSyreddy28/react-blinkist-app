@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { customStyles } from "../../../Themes/index";
 import { ArrowForward } from "@mui/icons-material";
 import { Typography } from "@mui/material";
@@ -32,6 +32,8 @@ interface Props {
 export default function BookDetail(props: Props) {
   const classes = customStyles();
 
+  const [enabled, setEnabled] = useState(false);
+
   async function addToFinished() {
     await axios
       .get(`http://localhost:3000/dataBase/${props.book.id}`)
@@ -58,6 +60,7 @@ export default function BookDetail(props: Props) {
       });
   }
 
+  
   return (
     <Grid container>
       <Grid item md={8}>
@@ -122,10 +125,11 @@ export default function BookDetail(props: Props) {
             <Link style={{ textDecoration: "none" }} to={props.book.status !== "reading" ? "/" : ""}>
               <Buttons
                 name={"Read Now"}
-                onClick={props.book.status !== "reading" ? addToCurrent : undefined}
+                onClick={addToCurrent}
                 classing={"readNow"}
                 icon={undefined}
                 end={undefined}
+                disabled={props.book.status !== "reading" ? false : true}
               ></Buttons>
             </Link>
           </Grid>
@@ -134,10 +138,11 @@ export default function BookDetail(props: Props) {
             <Link style={{ textDecoration: "none" }} to={props.book.status === "reading" ? "/" : ""}>
               <Buttons
                 name={"Finished Reading"}
-                onClick={props.book.status === "reading" ? addToFinished : undefined}
+                onClick={addToFinished}
                 classing={"connect"}
                 icon={undefined}
                 end={undefined}
+                disabled={props.book.status === "reading" ? false : true}
               ></Buttons>
             </Link>
           </Grid>
