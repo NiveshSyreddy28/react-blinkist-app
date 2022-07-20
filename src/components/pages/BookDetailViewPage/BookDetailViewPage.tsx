@@ -5,7 +5,6 @@ import RootTemplate from "../../Template/Template";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import {getBooks} from "../../../Data/Data"
-// import ToggleTabs from "../../molecules/ToggleTabs/ToggleTabs";
 
 type data = {
   id:number,
@@ -25,12 +24,10 @@ type data = {
 
 function BookDetailViewPage() {
 
-  // console.log("inside Book detail page")
 
   let {id}=useParams()
   let ind = Number(id)
   console.log(typeof ind)
-  // const [bookData, setBookData] = useState<data[]>([])
   const[bookData, setBookData] = useState<data>(getBooks()[1])
   useEffect(() => {
     
@@ -42,7 +39,6 @@ function BookDetailViewPage() {
     })
       .then((res: any) => {
         setBookData(res.data);
-        // console.log(bookData)
       })
       .catch((error: any) => console.log(error));
   }, []);

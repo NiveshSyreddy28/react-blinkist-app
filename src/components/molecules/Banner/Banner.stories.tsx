@@ -2,7 +2,7 @@ import Banner from "./Banner";
 
 export default{
     
-    title: "Organisms/banner",
+    title: "Molecules/Banner",
     component: Banner
 }
 

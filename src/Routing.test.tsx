@@ -1,6 +1,5 @@
-import { fireEvent, render, screen } from '@testing-library/react';
+import {render} from '@testing-library/react';
 import Routing from './Routing';
-import { BrowserRouter } from 'react-router-dom';
 
 const renderHeader= () => {
   render(

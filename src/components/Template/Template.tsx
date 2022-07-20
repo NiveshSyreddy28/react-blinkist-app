@@ -24,8 +24,6 @@ export const useStyles = makeStyles({
     marginTop: "86px",
     height: "100%",
     width: "100%",
-    // paddingLeft:"10%",
-    // paddingRight:"10%",
     justifyContent: "center",
   },
 });

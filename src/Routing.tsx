@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
-import MyLibPage from './components/pages/MyLibrary/MyLibrary'
+import MyLibPage from './components/pages/MyLibrary/MyLibraryPage'
 import BookDetailPage from './components/pages/BookDetailViewPage/BookDetailViewPage';
 import EntrepreneurshipPage from './components/pages/EntrepreneurshipPage/EntrepreneurshipPage';
 

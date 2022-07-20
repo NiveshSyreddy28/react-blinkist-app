@@ -1,10 +1,9 @@
 import { Box } from "@mui/material";
-import BookCard from "../../molecules/BookCards/BookCards";
+import BookCard from "../BookCards/BookCards";
 import axios from "axios";
 
 interface CardStateTrendingProps {
   type: string;
-  // onFinishedClick:(arg:Book)=>void;
   books:Array<Book>;
   
 }
@@ -33,7 +32,6 @@ const CardStateTrending = (props: CardStateTrendingProps) => {
             
               response.data["status"]="reading";
               console.log(response.data);
-              // await axios.patch(`http://localhost:3000/dataBase/${bookData[id].status},{"finished"}`)
               await axios.delete(`http://localhost:3000/dataBase/${id}`)
             await  axios.post(`http://localhost:3000/dataBase/`,response.data);
             document.location.reload();
@@ -52,6 +50,7 @@ const CardStateTrending = (props: CardStateTrendingProps) => {
       margin:"0%",
       padding:"0%"
     }}
+    data-testid="Filtered Books"
   >
     {props.books.map((book: Book) => {
       const { category } = book
@@ -65,7 +64,6 @@ const CardStateTrending = (props: CardStateTrendingProps) => {
          
             book={book}
             typeOfCard={buttonType} 
-            // bookObject={props.books}
             />
           }
           

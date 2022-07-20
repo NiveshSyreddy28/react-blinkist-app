@@ -22,14 +22,7 @@ type data = {
     status: string;
     category: string;
 };
-interface Props {
-    type: string;
-    onFinishedClick:(arg:data)=>void;
-    books:Array<data>;
-    book: any; 
-    setData: any 
-  }
-// const Entrepreneurship = (props: { book: data[]; setData: any }) => {
+
 const EntrepreneurshipPage = () => {
 
     const [bookData, setBookData] = useState<data[]>([]);
@@ -59,7 +52,6 @@ const EntrepreneurshipPage = () => {
             <SearchBar></SearchBar>
             </Box>
 
-          {/* <Box sx={{paddingTop:"3%"}}> */}
           <Box sx={{paddingTop:"3%"}} style={{display:'flex', flexDirection:'column', width:'1000px'}}>
          <Typography variant="h5" fontFamily={"Cera Pro"} fontWeight={"bold"}>Trending blinks</Typography>
         <CardStateTrending type={'trendingBlinks'} books={bookData} />

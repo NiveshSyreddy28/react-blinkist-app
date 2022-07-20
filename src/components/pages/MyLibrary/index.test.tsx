@@ -4,23 +4,7 @@ import React from "react";
 import { MemoryRouter } from "react-router-dom";
 import Theme from "../../../Themes/Themes";
 import { getBooks } from "../../../Data/Data";
-import MyLibPage from "./MyLibrary";
-import Tabs from '../../Organisms/Tabs/Tabs';
-type data = {
-  id:number,
-  author: string;
-  country: string;
-  imageLink: string;
-  language: string;
-  link: string;
-  pages: number;
-  title: string;
-  year: number;
-  readTime: string;
-  readersCount: string;
-  status: string;
-  category:string;
-};
+import MyLibPage from "./MyLibraryPage";
 
 afterEach(cleanup);
 

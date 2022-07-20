@@ -1,0 +1,742 @@
+
+<src_components_Organisms_BookCards_BookCards_tsx_40_35_A_9_0y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx(" (()"s2_1*ßé
+s2_1
+<synthetic> (õò
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx) +(
+	%object_0Object"Object™
+ß
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx* *(
+
+	%object_0Object"
+flex"__id*
+1õò
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx, 3(
+	%object_1Object"Object±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx- -(
+
+	%object_1Object"
+color"__id*	
+#03314B≥
+∞
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx. .(#
+
+	%object_1Object"
+
+fontWeight"__id*
+bold±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx/ /(!
+
+	%object_1Object"
+
+fontSize"__id*
+18px≥
+∞
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx0 0(#
+
+	%object_1Object"
+
+lineHeight"__id*
+23pxµ
+≤
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx1 1(&
+
+	%object_1Object"
+paddingBottom"__id*
+3px∑
+¥
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx2 2(#
+
+	%object_1Object"
+
+fontFamily"__id*
+
+Cera Proõò
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx4 <(
+	%object_2Object"Object±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx5 5(
+
+	%object_2Object"
+color"__id*	
+#6D787E∑
+¥
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx6 6(#
+
+	%object_2Object"
+
+fontFamily"__id*
+
+Cera Pro≤
+Ø
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx7 7(#
+
+	%object_2Object"
+
+fontWeight"__id*
+400±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx8 8(!
+
+	%object_2Object"
+
+fontSize"__id*
+16px≥
+∞
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx9 9(#
+
+	%object_2Object"
+
+lineHeight"__id*
+20px∂
+≥
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx: :(&
+
+	%object_2Object"
+paddingBottom"__id*
+10px≥
+∞
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx; ;(#
+
+	%object_2Object"
+
+paddingTop"__id*
+10pxõò
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx>	 D(
+	%object_3Object"Object∞
+≠
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx? ?( 
+
+	%object_3Object"	
+display"__id*
+flexÆ
+´
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx@ @(
+
+	%object_3Object"
+margin"__id*
+2px¿
+Ω
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxA A(#'
+
+	%object_3Object"
+justifyContent"__id*
+space-betweenµ
+≤
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxB B(#
+
+	%object_3Object"
+
+whiteSpace"__id*
+
+nowrap≤
+Ø
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxC C(#
+
+	%object_3Object"
+
+paddingTop"__id*
+6pxõò
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxE S(
+	%object_4Object"Object∞
+≠
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxF F( 
+
+	%object_4Object"	
+display"__id*
+flexµ
+≤
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxG G(!
+
+	%object_4Object"
+
+position"__id*
+
+absolute≠
+™
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxH H(
+
+	%object_4Object"
+left"__id*
+32px≠
+™
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxI I(
+
+	%object_4Object"
+top"__id*	
+395px∑
+¥
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxJ J(#
+
+	%object_4Object"
+
+fontFamily"__id*
+
+Cera Pro¥
+±
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxK K("
+
+	%object_4Object"
+	fontStyle"__id*
+
+normal≤
+Ø
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxL L(#
+
+	%object_4Object"
+
+fontWeight"__id*
+400±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxM M(!
+
+	%object_4Object"
+
+fontSize"__id*
+14px≥
+∞
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxN N(#
+
+	%object_4Object"
+
+lineHeight"__id*
+18px±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxO O(
+
+	%object_4Object"
+color"__id*	
+#6D787EØ
+¨
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxP P(
+
+	%object_4Object"
+height"__id*
+18pxÆ
+´
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxQ Q(
+
+	%object_4Object"
+width"__id*
+96px∑
+¥
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxR R(%
+
+	%object_4Object"
+borderRadius"__id*
+
+nullpxõò
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxU c(
+	%object_5Object"Object∞
+≠
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxV V( 
+
+	%object_5Object"	
+display"__id*
+flexµ
+≤
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxW W(!
+
+	%object_5Object"
+
+position"__id*
+
+absolute≠
+™
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxX X(
+
+	%object_5Object"
+left"__id*
+56px≠
+™
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxY Y(
+
+	%object_5Object"
+top"__id*	
+397px∑
+¥
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxZ Z(#
+
+	%object_5Object"
+
+fontFamily"__id*
+
+Cera Pro¥
+±
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx[ [("
+
+	%object_5Object"
+	fontStyle"__id*
+
+normal≤
+Ø
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx\ \(#
+
+	%object_5Object"
+
+fontWeight"__id*
+400±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx] ](!
+
+	%object_5Object"
+
+fontSize"__id*
+14px≥
+∞
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx^ ^(#
+
+	%object_5Object"
+
+lineHeight"__id*
+18px±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx_ _(
+
+	%object_5Object"
+color"__id*	
+#6D787EØ
+¨
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx` `(
+
+	%object_5Object"
+height"__id*
+18pxÆ
+´
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxa a(
+
+	%object_5Object"
+width"__id*
+96px∑
+¥
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxb b(%
+
+	%object_5Object"
+borderRadius"__id*
+
+nullpxõò
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxd r(
+	%object_6Object"Object∞
+≠
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxe e( 
+
+	%object_6Object"	
+display"__id*
+flexµ
+≤
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxf f(!
+
+	%object_6Object"
+
+position"__id*
+
+absoluteÆ
+´
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxg g(
+
+	%object_6Object"
+left"__id*	
+200px≠
+™
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxh h(
+
+	%object_6Object"
+top"__id*	
+395px∑
+¥
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxi i(#
+
+	%object_6Object"
+
+fontFamily"__id*
+
+Cera Pro¥
+±
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxj j("
+
+	%object_6Object"
+	fontStyle"__id*
+
+normal≤
+Ø
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxk k(#
+
+	%object_6Object"
+
+fontWeight"__id*
+400±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxl l(!
+
+	%object_6Object"
+
+fontSize"__id*
+14px≥
+∞
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxm m(#
+
+	%object_6Object"
+
+lineHeight"__id*
+18px±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxn n(
+
+	%object_6Object"
+color"__id*	
+#6D787EØ
+¨
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxo o(
+
+	%object_6Object"
+height"__id*
+18pxÆ
+´
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxp p(
+
+	%object_6Object"
+width"__id*
+96px∑
+¥
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxq q(%
+
+	%object_6Object"
+borderRadius"__id*
+
+nullpxúô
+z
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxs Å(
+	%object_7Object"Object∞
+≠
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxt t( 
+
+	%object_7Object"	
+display"__id*
+flexµ
+≤
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxu u(!
+
+	%object_7Object"
+
+position"__id*
+
+absoluteÆ
+´
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxv v(
+
+	%object_7Object"
+left"__id*	
+225px≠
+™
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxw w(
+
+	%object_7Object"
+top"__id*	
+397px∑
+¥
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxx x(#
+
+	%object_7Object"
+
+fontFamily"__id*
+
+Cera Pro¥
+±
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxy y("
+
+	%object_7Object"
+	fontStyle"__id*
+
+normal≤
+Ø
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxz z(#
+
+	%object_7Object"
+
+fontWeight"__id*
+400±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx{ {(!
+
+	%object_7Object"
+
+fontSize"__id*
+14px≥
+∞
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx| |(#
+
+	%object_7Object"
+
+lineHeight"__id*
+18px±
+Æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx} }(
+
+	%object_7Object"
+color"__id*	
+#6D787EØ
+¨
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx~ ~(
+
+	%object_7Object"
+height"__id*
+18pxÆ
+´
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx (
+
+	%object_7Object"
+width"__id*
+96pxπ
+∂
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxÄ Ä(%
+
+	%object_7Object"
+borderRadius"__id*
+
+nullpxùö
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxÇ
+ ç(
+	%object_8Object"Object≤
+Ø
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxÉ É( 
+
+	%object_8Object"	
+display"__id*
+flex≥
+∞
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxÑ Ñ(
+
+	%object_8Object"
+color"__id*	
+#0365F2∫
+∑
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxÖ Ö(&
+
+	%object_8Object"
+textAlignment"__id*
+
+centreª
+∏
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxÜ Ü('
+
+	%object_8Object"
+justifyContent"__id*
+
+center∏
+µ
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxá á(&
+
+	%object_8Object"
+paddingBottom"__id*
+16pxπ
+∂
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxà à(#
+
+	%object_8Object"
+
+fontFamily"__id*
+
+Cera Pro∂
+≥
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxâ â("
+
+	%object_8Object"
+	fontStyle"__id*
+
+normal¥
+±
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxä ä(#
+
+	%object_8Object"
+
+fontWeight"__id*
+500≥
+∞
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxã ã(!
+
+	%object_8Object"
+
+fontSize"__id*
+16pxµ
+≤
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxå å(#
+
+	%object_8Object"
+
+lineHeight"__id*
+20pxúô
+z
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx() é(
+	%object_9Object"Objectæ
+ª
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx) +(!
+
+	%object_9Object"
+
+flexGrow"__id*
+
+	%object_0Object¡
+æ
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx, 3($
+
+	%object_9Object"
+titleOfBook"__id*
+
+	%object_1Object¿
+Ω
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx4 <(#
+
+	%object_9Object"
+
+authorName"__id*
+
+	%object_2Objectª
+∏
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx> D(
+
+	%object_9Object"
+Reads"__id*
+
+	%object_3Objectæ
+ª
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxE S(!
+
+	%object_9Object"
+
+timeText"__id*
+
+	%object_4Objectø
+º
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxU c("
+
+	%object_9Object"
+	timeText1"__id*
+
+	%object_5Object¿
+Ω
+y
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxd r(#
+
+	%object_9Object"
+
+personText"__id*
+
+	%object_6Object¬
+ø
+z
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxs Å($
+
+	%object_9Object"
+personText1"__id*
+
+	%object_7Objectæ
+ª
+{
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsxÇ ç(
+
+	%object_9Object"
+finish"__id*
+
+	%object_8Object"ì
+z
+o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/Organisms/BookCards/BookCards.tsx() é(
+
+	%object_9Object:
+%envB 

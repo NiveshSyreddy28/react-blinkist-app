@@ -1,742 +1,0 @@
-
-<src_components_molecules_BookCards_BookCards_tsx_41_35_A_9_0y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx)" )()"s2_1*©Ž
-s2_1
-<synthetic> (›˜
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx* ,(
-	%object_0Object"Objectª
-§
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx+ +(
-
-	%object_0Object"
-flex"__id*
-1›˜
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx- 4(
-	%object_1Object"Object±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx. .(
-
-	%object_1Object"
-color"__id*	
-#03314B³
-°
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx/ /(#
-
-	%object_1Object"
-
-fontWeight"__id*
-bold±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx0 0(!
-
-	%object_1Object"
-
-fontSize"__id*
-18px³
-°
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx1 1(#
-
-	%object_1Object"
-
-lineHeight"__id*
-23pxµ
-²
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx2 2(&
-
-	%object_1Object"
-paddingBottom"__id*
-3px·
-´
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx3 3(#
-
-	%object_1Object"
-
-fontFamily"__id*
-
-Cera Pro›˜
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx5 =(
-	%object_2Object"Object±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx6 6(
-
-	%object_2Object"
-color"__id*	
-#6D787E·
-´
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx7 7(#
-
-	%object_2Object"
-
-fontFamily"__id*
-
-Cera Pro²
-¯
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx8 8(#
-
-	%object_2Object"
-
-fontWeight"__id*
-400±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx9 9(!
-
-	%object_2Object"
-
-fontSize"__id*
-16px³
-°
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx: :(#
-
-	%object_2Object"
-
-lineHeight"__id*
-20px¶
-³
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx; ;(&
-
-	%object_2Object"
-paddingBottom"__id*
-10px³
-°
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx< <(#
-
-	%object_2Object"
-
-paddingTop"__id*
-10px›˜
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx?	 E(
-	%object_3Object"Object°
-­
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx@ @( 
-
-	%object_3Object"	
-display"__id*
-flex®
-«
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxA A(
-
-	%object_3Object"
-margin"__id*
-2pxÀ
-½
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxB B(#'
-
-	%object_3Object"
-justifyContent"__id*
-space-betweenµ
-²
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxC C(#
-
-	%object_3Object"
-
-whiteSpace"__id*
-
-nowrap²
-¯
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxD D(#
-
-	%object_3Object"
-
-paddingTop"__id*
-6px›˜
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxF T(
-	%object_4Object"Object°
-­
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxG G( 
-
-	%object_4Object"	
-display"__id*
-flexµ
-²
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxH H(!
-
-	%object_4Object"
-
-position"__id*
-
-absolute­
-ª
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxI I(
-
-	%object_4Object"
-left"__id*
-32px­
-ª
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxJ J(
-
-	%object_4Object"
-top"__id*	
-395px·
-´
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxK K(#
-
-	%object_4Object"
-
-fontFamily"__id*
-
-Cera Pro´
-±
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxL L("
-
-	%object_4Object"
-	fontStyle"__id*
-
-normal²
-¯
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxM M(#
-
-	%object_4Object"
-
-fontWeight"__id*
-400±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxN N(!
-
-	%object_4Object"
-
-fontSize"__id*
-14px³
-°
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxO O(#
-
-	%object_4Object"
-
-lineHeight"__id*
-18px±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxP P(
-
-	%object_4Object"
-color"__id*	
-#6D787E¯
-¬
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxQ Q(
-
-	%object_4Object"
-height"__id*
-18px®
-«
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxR R(
-
-	%object_4Object"
-width"__id*
-96px·
-´
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxS S(%
-
-	%object_4Object"
-borderRadius"__id*
-
-nullpx›˜
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxV d(
-	%object_5Object"Object°
-­
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxW W( 
-
-	%object_5Object"	
-display"__id*
-flexµ
-²
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxX X(!
-
-	%object_5Object"
-
-position"__id*
-
-absolute­
-ª
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxY Y(
-
-	%object_5Object"
-left"__id*
-56px­
-ª
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxZ Z(
-
-	%object_5Object"
-top"__id*	
-397px·
-´
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx[ [(#
-
-	%object_5Object"
-
-fontFamily"__id*
-
-Cera Pro´
-±
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx\ \("
-
-	%object_5Object"
-	fontStyle"__id*
-
-normal²
-¯
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx] ](#
-
-	%object_5Object"
-
-fontWeight"__id*
-400±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx^ ^(!
-
-	%object_5Object"
-
-fontSize"__id*
-14px³
-°
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx_ _(#
-
-	%object_5Object"
-
-lineHeight"__id*
-18px±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx` `(
-
-	%object_5Object"
-color"__id*	
-#6D787E¯
-¬
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxa a(
-
-	%object_5Object"
-height"__id*
-18px®
-«
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxb b(
-
-	%object_5Object"
-width"__id*
-96px·
-´
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxc c(%
-
-	%object_5Object"
-borderRadius"__id*
-
-nullpx›˜
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxe s(
-	%object_6Object"Object°
-­
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxf f( 
-
-	%object_6Object"	
-display"__id*
-flexµ
-²
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxg g(!
-
-	%object_6Object"
-
-position"__id*
-
-absolute®
-«
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxh h(
-
-	%object_6Object"
-left"__id*	
-200px­
-ª
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxi i(
-
-	%object_6Object"
-top"__id*	
-395px·
-´
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxj j(#
-
-	%object_6Object"
-
-fontFamily"__id*
-
-Cera Pro´
-±
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxk k("
-
-	%object_6Object"
-	fontStyle"__id*
-
-normal²
-¯
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxl l(#
-
-	%object_6Object"
-
-fontWeight"__id*
-400±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxm m(!
-
-	%object_6Object"
-
-fontSize"__id*
-14px³
-°
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxn n(#
-
-	%object_6Object"
-
-lineHeight"__id*
-18px±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxo o(
-
-	%object_6Object"
-color"__id*	
-#6D787E¯
-¬
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxp p(
-
-	%object_6Object"
-height"__id*
-18px®
-«
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxq q(
-
-	%object_6Object"
-width"__id*
-96px·
-´
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxr r(%
-
-	%object_6Object"
-borderRadius"__id*
-
-nullpxœ™
-z
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxt ‚(
-	%object_7Object"Object°
-­
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxu u( 
-
-	%object_7Object"	
-display"__id*
-flexµ
-²
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxv v(!
-
-	%object_7Object"
-
-position"__id*
-
-absolute®
-«
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxw w(
-
-	%object_7Object"
-left"__id*	
-225px­
-ª
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxx x(
-
-	%object_7Object"
-top"__id*	
-397px·
-´
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxy y(#
-
-	%object_7Object"
-
-fontFamily"__id*
-
-Cera Pro´
-±
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxz z("
-
-	%object_7Object"
-	fontStyle"__id*
-
-normal²
-¯
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx{ {(#
-
-	%object_7Object"
-
-fontWeight"__id*
-400±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx| |(!
-
-	%object_7Object"
-
-fontSize"__id*
-14px³
-°
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx} }(#
-
-	%object_7Object"
-
-lineHeight"__id*
-18px±
-®
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx~ ~(
-
-	%object_7Object"
-color"__id*	
-#6D787E¯
-¬
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx (
-
-	%object_7Object"
-height"__id*
-18px°
-­
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx€ €(
-
-	%object_7Object"
-width"__id*
-96px¹
-¶
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx (%
-
-	%object_7Object"
-borderRadius"__id*
-
-nullpxš
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxƒ
- Ž(
-	%object_8Object"Object²
-¯
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx„ „( 
-
-	%object_8Object"	
-display"__id*
-flex³
-°
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx… …(
-
-	%object_8Object"
-color"__id*	
-#0365F2º
-·
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx† †(&
-
-	%object_8Object"
-textAlignment"__id*
-
-centre»
-¸
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx‡ ‡('
-
-	%object_8Object"
-justifyContent"__id*
-
-center¸
-µ
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxˆ ˆ(&
-
-	%object_8Object"
-paddingBottom"__id*
-16px¹
-¶
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx‰ ‰(#
-
-	%object_8Object"
-
-fontFamily"__id*
-
-Cera Pro¶
-³
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxŠ Š("
-
-	%object_8Object"
-	fontStyle"__id*
-
-normal´
-±
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx‹ ‹(#
-
-	%object_8Object"
-
-fontWeight"__id*
-500³
-°
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxŒ Œ(!
-
-	%object_8Object"
-
-fontSize"__id*
-16pxµ
-²
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx (#
-
-	%object_8Object"
-
-lineHeight"__id*
-20pxœ™
-z
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx)) (
-	%object_9Object"Object¾
-»
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx* ,(!
-
-	%object_9Object"
-
-flexGrow"__id*
-
-	%object_0ObjectÁ
-¾
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx- 4($
-
-	%object_9Object"
-titleOfBook"__id*
-
-	%object_1ObjectÀ
-½
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx5 =(#
-
-	%object_9Object"
-
-authorName"__id*
-
-	%object_2Object»
-¸
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx? E(
-
-	%object_9Object"
-Reads"__id*
-
-	%object_3Object¾
-»
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxF T(!
-
-	%object_9Object"
-
-timeText"__id*
-
-	%object_4Object¿
-¼
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxV d("
-
-	%object_9Object"
-	timeText1"__id*
-
-	%object_5ObjectÀ
-½
-y
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxe s(#
-
-	%object_9Object"
-
-personText"__id*
-
-	%object_6ObjectÂ
-¿
-z
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxt ‚($
-
-	%object_9Object"
-personText1"__id*
-
-	%object_7Object¾
-»
-{
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsxƒ Ž(
-
-	%object_9Object"
-finish"__id*
-
-	%object_8Object"“
-z
-o/home/niveS/Desktop/Assignments/ReactJs/react-blinkist-project/src/components/molecules/BookCards/BookCards.tsx)) (
-
-	%object_9Object:
-%envB 

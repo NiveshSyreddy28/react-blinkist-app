@@ -3,12 +3,10 @@ import { cleanup, render, screen } from "@testing-library/react";
 import React from "react";
 import { MemoryRouter } from "react-router-dom";
 import Theme from "../../../Themes/Themes";
-import { getBooks } from "../../../Data/Data";
 import Toggles from "./ToggleTabs";
 
 afterEach(cleanup);
 
-const handleFinish = (_arg: any) => {};
 
 it("renders Reading Card State Organism", () => {
   render(

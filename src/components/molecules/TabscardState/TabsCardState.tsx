@@ -1,11 +1,10 @@
 import {Grid } from "@mui/material";
-import BookCard from "../BookCards/BookCards"
+import BookCard from "../../Organisms/BookCards/BookCards"
 
 interface TabsandCardStateProps {
   type: string;
   onFinishedClick: () => void;
   books: Array<Book>;
-  // cardType: string;
 }
 
 type Book = {
@@ -46,7 +45,6 @@ const TabsCardState = (props:TabsandCardStateProps) => {
               onFinishedClick={props.onFinishedClick}
                 book={book}
                 typeOfCard={props.type} 
-                // bookObject={props.books}
                 />
                 </Grid>
               }

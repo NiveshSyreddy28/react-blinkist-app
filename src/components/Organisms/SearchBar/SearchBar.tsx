@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 import TextField from "@mui/material/TextField";
 import InputAdornment from "@mui/material/InputAdornment";
 import { useEffect, useState } from "react";
-import BookCards from "../../molecules/BookCards/BookCards";
+import BookCards from "../BookCards/BookCards";
 import axios from "axios";
 
 type data = {
@@ -66,7 +66,6 @@ function SearchBar() {
       .then(async (response) => {
         response.data["status"] = "reading";
         console.log(response.data);
-        // await axios.patch(`http://localhost:3000/dataBase/${bookData[id].status},{"finished"}`)
         await axios.delete(`http://localhost:3000/dataBase/${id}`);
         await axios.post(`http://localhost:3000/dataBase/`, response.data);
         document.location.reload();
@@ -101,7 +100,6 @@ function SearchBar() {
         />
       </Box>
 
-      {/* <Box sx={{display:"flex"}}> */}
       <Box style={{ display: "flex", flexDirection: "row", maxWidth: "500px" }} data-testid="fetch">
         {filterBooks &&
           filterBooks.map((matchBook) => {
@@ -114,7 +112,6 @@ function SearchBar() {
                     book={matchBook}
                     onFinishedClick={() => addToReading(matchBook.id)}
                     typeOfCard={buttonType}
-                    // bookObject={[]}
                   />
                 </Box>
               );

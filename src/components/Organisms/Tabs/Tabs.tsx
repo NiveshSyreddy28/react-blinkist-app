@@ -32,20 +32,27 @@ const useStyles = makeStyles(() => ({
   TabBox: {
     padding: "0 0px",
     borderBottom: "0",
-    borderColor: "divider",
+    borderColor: "#22C870",
   },
   TabPanel: {
     padding: "10px 0px !important",
     color:"green",
   },
   Tab: {
-    width: "25%",
-    paddingLeft: "0px !important",
-    whiteSpace:"nowrap",
+  width: "200px",
+    height: "23px",
+
     fontFamily: "Cera Pro",
-    fontWeight: "Bold",
-    // color:"green",
-  //   "&:hover": { color:"green" }
+    fontStyle: "normal",
+    fontSize: "18px",
+    lineHeight: "23px",
+    justifyContent:"centre",
+    alignItems: "flex-start",
+    textTransform: "none",
+
+    "&:focus": {
+      color: "#22C870",
+    },
   },
 }));
 
@@ -64,9 +71,12 @@ export default function Tabs(props: BlinkistTabsProps) {
         <Box className={classes.TabBox}>
           <TabList
             onChange={handleChange}
-            color= "green"
-            aria-label="lab API tabs"
-            sx={{ alignItems: "self-start", justifyContent: "flex-start"}}
+            textColor="inherit"
+            TabIndicatorProps={{
+              style: {
+                backgroundColor: "#2CE080",
+              },
+            }}
           >
             <Tab
               disableRipple

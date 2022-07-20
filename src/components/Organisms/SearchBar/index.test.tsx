@@ -1,10 +1,9 @@
 import { ThemeProvider } from "@emotion/react";
 import { cleanup, render, screen ,fireEvent } from "@testing-library/react";
-// import React from "react";
+import React from "react";
 import { MemoryRouter } from "react-router-dom";
 import Theme from "../../../Themes/Themes";
 import Search from "./SearchBar";
-// import axios from "axios"
 import '@testing-library/jest-dom/extend-expect'
 
 afterEach(cleanup);

@@ -1,7 +1,5 @@
 import ToggleTabs from "../../molecules/ToggleTabs/ToggleTabs";
-import BookDetail from "../../molecules/BookDetail/BookDetail";
-
-import React from 'react'
+import BookDetail from "../BookDetail/BookDetail";
 import { Box } from "@mui/material";
 
 type Book = {

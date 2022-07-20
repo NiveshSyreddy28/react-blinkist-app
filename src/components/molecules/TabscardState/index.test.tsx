@@ -25,14 +25,10 @@ it("renders Reading Card State Organism", () => {
   );
   const tabState = screen.getAllByText("");
 
-
-
   expect(tabState[0]).toBeTruthy();
   expect(tabState[0]).toBeInTheDocument();
   expect(tabState[0]).toBeDefined();
 });
-
-
 
 it("renders finished Card State Organism", () => {
   render(
@@ -53,8 +49,6 @@ it("renders finished Card State Organism", () => {
   expect(tabState[0]).toBeInTheDocument();
   expect(tabState[0]).toBeDefined();
 });
-
-
 
 it("renders Library Card State Organism", () => {
   render(

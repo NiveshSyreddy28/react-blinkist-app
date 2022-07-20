@@ -36,27 +36,3 @@ test("Header Account click Test",async () => {
     const changedElement = screen.getByText("Account");
     expect(changedElement).toBe(headerElement);
 })
-
-// test("Header Account Icon click Test",async () => {
-//     render(<BrowserRouter> <Header avatarIcon={false}/> </BrowserRouter>);
-//     const headerElement = screen.getByTestId(/PersonIcon/i);
-//     expect(headerElement).toBe(headerElement);
-// })
-
-// test("Header LogOut click Test",async () => {
-//     render(<BrowserRouter> <Header avatarIcon={true} /> </BrowserRouter>);
-//     const headerElement = screen.getByTestId("Avatar Arrow");
-//     fireEvent.click(headerElement);
-
-//     const changedElement = screen.getByTestId("Avatar Arrow");
-//     expect(changedElement).toBe(headerElement);
-// })
-
-// test("Header LogOut click Test",async () => {
-//     render(<BrowserRouter> <Header avatarIcon={true} /> </BrowserRouter>);
-//     const headerElement = screen.getByText("Log Out");
-//     fireEvent.click(headerElement);
-
-    // const changedElement = screen.getByText("Account");
-    // expect(changedElement).toBe(headerElement);
-// })
