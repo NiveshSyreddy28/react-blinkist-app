@@ -10,7 +10,7 @@ const BookReadTimeStory = {
 
 const Template: ComponentStory<typeof BookReadTime> = (args) => (
   <ThemeProvider theme={Theme}>
-    <BookReadTime {...args} />
+    <BookReadTime />
   </ThemeProvider>
 );
 

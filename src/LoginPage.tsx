@@ -1,13 +1,13 @@
 import { useAuth0 } from '@auth0/auth0-react';
 import { Box, Typography } from '@mui/material';
 import React from 'react'
-import Buttons from './components/atoms/Button/Button';
+import Buttons from './components/atoms/Button/Buttons';
 import image from "./Images/loginImage.png";
 
 function LoginPage() {
     const { loginWithRedirect } = useAuth0();
   return (
-    <Box position={"absolute"} top={"25%"} width={"100%"}>
+    <Box position={"absolute"} top={"25%"} width={"100%"} data-testid="Login-Box">
       <Box display={"flex"} justifyContent="center">
       <Box width="60%" >
         <Box width={"80%"} padding={"5% 10%"}>
@@ -18,7 +18,7 @@ function LoginPage() {
         Perfect for curious people who love to learn, busy people who don’t have time to read, and even people who aren’t into reading.
         </Typography>
         <Box display={"flex"} justifyContent={"center"} padding={"30px"}>
-        <Buttons name={"Log in"} onClick={() => loginWithRedirect()} classing={'connect'} icon={undefined} end={undefined} />
+        <Buttons name={"Log in"} onClick={() => loginWithRedirect()} classing={'connect'} icon={undefined} end={undefined} data-testid="login-button"/>
         </Box>
         </Box>
         </Box>

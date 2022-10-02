@@ -6,7 +6,6 @@ import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import TabsandCardState from "../../molecules/TabscardState/TabsCardState";
 import { makeStyles } from "@mui/styles";
-import { Theme } from "@emotion/react";
 
 type Book = {
   id: number;
@@ -25,76 +24,89 @@ type Book = {
 
 interface BlinkistTabsProps {
   value: string;
-  onFinishedClick: (arg: Book) => void;
+  onFinishedClick: () => void;
   bookObject: Array<Book>;
 }
 
-const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles(() => ({
   TabBox: {
     padding: "0 0px",
     borderBottom: "0",
-    borderColor: "divider",
+    borderColor: "#22C870",
   },
   TabPanel: {
     padding: "10px 0px !important",
     color:"green",
   },
   Tab: {
-    width: "25%",
-    paddingLeft: "0px !important",
-    whiteSpace:"nowrap",
+  width: "200px",
+    height: "23px",
+
     fontFamily: "Cera Pro",
-    fontWeight: "Bold",
-    // color: "green",
-    // whiteSpace:"norow",
-    // fontStyle: "italic",
+    fontStyle: "normal",
+    fontSize: "18px",
+    lineHeight: "23px",
+    justifyContent:"centre",
+    alignItems: "flex-start",
+    textTransform: "none",
+
+    "&:focus": {
+      color: "#22C870",
+    },
   },
 }));
 
-export default function BlinkistTabs(props: BlinkistTabsProps) {
+export default function Tabs(props: BlinkistTabsProps) {
 
   const classes = useStyles();
 
   const [value, setValue] = React.useState(props.value);
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue) ;
   };
   
   return (
     <Box>
-      <TabContext value={value}>
+      <TabContext value={value} data-testid={"tab-context"}>
         <Box className={classes.TabBox}>
           <TabList
             onChange={handleChange}
-            color= "green"
-            aria-label="lab API tabs"
-            sx={{ alignItems: "self-start", justifyContent: "flex-start"}}
+            textColor="inherit"
+            TabIndicatorProps={{
+              style: {
+                backgroundColor: "#2CE080",
+              },
+            }}
           >
             <Tab
               disableRipple
               label="Currently Reading"
               value="1"
               className={classes.Tab}
+              data-testid={"reading-tab"}
             />
             <Tab
               disableRipple
               label="Finished"
               value="2"
               className={classes.Tab}
+              data-testid={"finished-tab"}
             />
           </TabList>
         </Box>
-        <TabPanel value="1" className={classes.TabPanel}>
+        <TabPanel value="1" className={classes.TabPanel} data-testid={"tab-panel1"}>
           <TabsandCardState
                       type="reading"
-                      onFinishedClick={(book) => props.onFinishedClick(book)}
-                      books={props.bookObject}        />
+                      onFinishedClick={() => props.onFinishedClick()}
+                      books={props.bookObject}        
+                      />
         </TabPanel>
-        <TabPanel value="2" className={classes.TabPanel}>
+        <TabPanel value="2" className={classes.TabPanel} data-testid={"tab-panel2"}>
           <TabsandCardState
                       type="finished"
-                      onFinishedClick={(book) => props.onFinishedClick(book)}
-                      books={props.bookObject}         />
+                      onFinishedClick={() => props.onFinishedClick()}
+                      books={props.bookObject}
+                      />
         </TabPanel>
       </TabContext>
     </Box>

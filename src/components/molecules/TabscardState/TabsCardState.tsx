@@ -1,11 +1,10 @@
-import { Box, Grid } from "@mui/material";
-import BookCard from "../BookCards/BookCards"
+import {Grid } from "@mui/material";
+import BookCard from "../../Organisms/BookCards/BookCards"
 
 interface TabsandCardStateProps {
   type: string;
-  onFinishedClick: (arg: Book) => void;
+  onFinishedClick: () => void;
   books: Array<Book>;
-  // cardType: string;
 }
 
 type Book = {
@@ -21,52 +20,9 @@ type Book = {
   readTime: string;
   readersCount: string;
   status: string;
-  // imag: string,
-  //   bookName: string,
-  //   author: string,
-  //   time: string,
-  //   user: string,
-  //   count: string,
-  //   trending: string,
-  //   justAdded: string,
-  //   featured:string,
-  //   added: string,
-  //   id: number,
-  //   status: string
 };
 
-// const TabsandCardState = (props: TabsandCardStateProps) => {
-//   //   const type = props.type
-//   return (
-//     <Box sx={{
-//         display: "flex",
-//         flexWrap: "wrap",
-//         margin:"0%",
-//         padding:"0%"
-//       }}>
-
-//       {props.books.map((book: Book) => {
-//         if (props.type === book.status) {
-//           // const status = book.status
-//           return (
-//             <Box>
-//               <Cards
-//                 key={book.author + book.title}
-//                 onFinishedClick={() => props.onFinishedClick(book)}
-//                 book={book}
-//                 typeOfCard={props.cardType}
-//               />
-//             </Box>
-//           );
-//         }
-//       })}
-//     </Box>
-//   );
-// };
-
-// export default TabsandCardState;
-
-const TabsandCardState = (props:TabsandCardStateProps) => {
+const TabsCardState = (props:TabsandCardStateProps) => {
     const {type} = props
     return (
       <Grid item columns={10}
@@ -86,10 +42,9 @@ const TabsandCardState = (props:TabsandCardStateProps) => {
                 <Grid>
               <BookCard
              key={book.author+book.title}
-              onFinishedClick={() => props.onFinishedClick(book)}
+              onFinishedClick={props.onFinishedClick}
                 book={book}
                 typeOfCard={props.type} 
-                bookObject={props.books}
                 />
                 </Grid>
               }
@@ -100,4 +55,4 @@ const TabsandCardState = (props:TabsandCardStateProps) => {
     );
   }
   
-  export default TabsandCardState
+  export default TabsCardState

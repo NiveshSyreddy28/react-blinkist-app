@@ -1,4 +1,3 @@
-import { createTheme } from "@mui/material/styles";
 import { makeStyles } from "@mui/styles";
 
 
@@ -20,7 +19,6 @@ const customStyles = makeStyles({
   },
    bannerBox: {
     backgroundColor: "#F1F6F4",
-    // marginLeft: "100px",
     marginTop: "32px",
     height: "264px",
     width: "912px",
@@ -94,8 +92,6 @@ const customStyles = makeStyles({
     fontsize: "16px",
     fontweight: "500",
     lineheight: "20px",
-    
-
   },
   toggletabs:{
 
@@ -207,7 +203,6 @@ const customStyles = makeStyles({
   },
   bookInfo: {
     color: "#03314B",
-    // fontSize: "20px",
   },
   footer: {
     width: "542px",
@@ -228,9 +223,7 @@ width: "214px",
   visible: {
     
     position:"absolute",
-    height: "100%",
-    // top: "100px",
-    // background: "#F1F6F4",
+    height: "250%",
     zIndex:1,
     width:"100%"
   },
@@ -245,7 +238,6 @@ width: "214px",
     fontfamily: "Cera Pro",fontsize: "10px",fontweight: "400",lineheight: "22px",color:"#6D787E"
   },
   exploreButton:{
-    // paddingLeft: "20px",
     width: "auto",
     height: "28px",
     justifyContent:"center",
@@ -253,7 +245,6 @@ width: "214px",
       backgroundColor: "white",
       borderBottom: "solid 3px #22C870",
       justifyContent:"center",
-      // alignItem: "right",
     }
 }
 });

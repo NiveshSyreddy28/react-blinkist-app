@@ -1,9 +1,9 @@
 import { makeStyles } from "@mui/styles";
 import React from "react";
-import { Container } from "@mui/material";
+
 
 import { Grid } from "@mui/material";
-import { Padding } from "@mui/icons-material";
+
 
 export const useStyles = makeStyles({
   root: {
@@ -24,8 +24,6 @@ export const useStyles = makeStyles({
     marginTop: "86px",
     height: "100%",
     width: "100%",
-    // paddingLeft:"10%",
-    // paddingRight:"10%",
     justifyContent: "center",
   },
 });
@@ -35,7 +33,6 @@ export type MyProps = {
   footer: React.ReactNode;
 };
 const RootTemplate = (props: MyProps) => {
-  const classes = useStyles();
 
   return (
     <Grid item container direction="column" sx={{ textAlign: "left"}}>

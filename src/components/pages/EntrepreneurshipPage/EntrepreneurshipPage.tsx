@@ -1,7 +1,7 @@
 import { Box, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
-import SearchBar from '../../molecules/SearchBar/SearchBar';
-import Banner from '../../Organisms/Banner/Banner';
+import SearchBar from '../../Organisms/SearchBar/SearchBar';
+import Banner from '../../molecules/Banner/Banner';
 import CardStateTrending from '../../Organisms/EntrepreneurOrganism/index';
 import Footer from '../../Organisms/Footer/Footer';
 import Header from '../../Organisms/Header/Header';
@@ -22,14 +22,7 @@ type data = {
     status: string;
     category: string;
 };
-interface Props {
-    type: string;
-    onFinishedClick:(arg:data)=>void;
-    books:Array<data>;
-    book: any; 
-    setData: any 
-  }
-// const Entrepreneurship = (props: { book: data[]; setData: any }) => {
+
 const EntrepreneurshipPage = () => {
 
     const [bookData, setBookData] = useState<data[]>([]);
@@ -50,7 +43,7 @@ const EntrepreneurshipPage = () => {
 
   return (
     <ParentTemplate
-      header={<Header></Header>}
+      header={<Header avatarIcon={true}></Header>}
       body={
         <div>
           <Box style={{display:'flex', flexDirection:'column', maxWidth:'100%'}}>
@@ -59,7 +52,6 @@ const EntrepreneurshipPage = () => {
             <SearchBar></SearchBar>
             </Box>
 
-          {/* <Box sx={{paddingTop:"3%"}}> */}
           <Box sx={{paddingTop:"3%"}} style={{display:'flex', flexDirection:'column', width:'1000px'}}>
          <Typography variant="h5" fontFamily={"Cera Pro"} fontWeight={"bold"}>Trending blinks</Typography>
         <CardStateTrending type={'trendingBlinks'} books={bookData} />

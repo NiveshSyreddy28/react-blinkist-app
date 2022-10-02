@@ -1,8 +1,7 @@
 import React from 'react';
 import { ComponentStory } from '@storybook/react';
-import MyLibPage from './MyLibrary';
+import MyLibPage from './MyLibraryPage';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { getBooks } from '../../../../Data/Data';
 
 export default {
   title: 'pages/myLibPage',

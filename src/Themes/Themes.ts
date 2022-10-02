@@ -59,7 +59,7 @@ const Theme = createTheme({
     palette: {
         primary: {
             light: '#E2F2E9',
-            main: '#2CE080',
+            main: '#22C870',
             dark: '#22C870',
             darker: '#20BA68',
         },
@@ -136,24 +136,6 @@ const Theme = createTheme({
             fontWeight: 700,
         },
     },
-    // typography: {
-    //     subtitle1: {
-    //       margin: "2%",
-    //       fontFamily: "Cera pro",
-    //       FontStyle: "normal",
-    //       fontWeight: "700",
-    //       FontSize: "21px",
-    //       LineHeight: "23px",
-    //     },
-    
-    //     body1: {
-    //       margin: "2%",
-    //       fontFamily: "Cera pro",
-    //       FontStyle: "normal",
-    //       fontWeight: "400",
-    //       LineHeight: "23px",
-    //     },
-    //   },
 });
 
 export default Theme;
